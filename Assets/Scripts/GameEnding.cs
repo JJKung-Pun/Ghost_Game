@@ -43,6 +43,7 @@ public class GameEnding : MonoBehaviour
         {
             isPlayerExit = true;
         }
+
     }
     void EndLevel(CanvasGroup imageCanvas, bool doRestart)
     {

@@ -20,7 +20,7 @@ public class Observation : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            isPlayerInRange = false;
+            isPlayerInRange = true;
         }
     }
 
